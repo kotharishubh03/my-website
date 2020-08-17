@@ -1,0 +1,180 @@
+body {
+    background: #b3b3b3;
+    margin: 2%;
+    font-size: 150%;
+  }
+  
+  header>h1{
+    background: #00b7ea;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25em;
+    /*background-image: url(D:\\programing\\html\\WDL\\images\\IFlag.jpg);*/
+  }
+  nav {
+    text-align: center;
+}
+strong{
+  font-size: xx-large;
+  color:green
+}
+p>strong:first-child{
+  font-size: xxx-large;
+  color: orange;
+}
+
+
+h1 {
+  color:#ffffff;
+}
+div{
+  border-color: black;
+  border-style: solid;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  height: fit-content;
+  padding: 3rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: inherit;
+}
+
+/* Form elements*/
+
+form{
+  padding: 2em;
+  color: yellow;
+
+}
+#form {
+  background-color: #65a83d;
+}
+/* EASY PARA FORMATING AND TRANSFORM CASE OF TEXT AND USEING PADING */
+
+P{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+P>i{
+  color: rgb(66, 66, 202);
+  text-transform: uppercase;
+}
+
+/* CENTER ALIGN ELEMENTS AND OPAQUE IMAGES*/
+img{
+  opacity: 0.8;
+}
+img:hover{
+  opacity: 1;
+}
+
+/* CHANGE LINK COLORS AND REMOVE LINK UNDERLINE*/
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color : rgb(6, 153, 26);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav>a {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #000000; /* Black */
+  display: inline-block;
+  width : 250px;
+  padding: 10px;
+  margin: 1%; 
+  text-decoration: none; 
+  border-radius: 25px; 
+}
+
+  #img1{
+    padding: 10px;
+    display: block;
+    float :right;
+    box-sizing: border-box;
+    width: 450px;
+  }
+  #img2{
+    padding: 10px;
+    display: block;
+    float :right;
+    box-sizing: border-box;
+    width: 350px;
+  }
+  #img3{
+    padding: 10px;
+    display: block;
+    float :left;
+    box-sizing: border-box;
+    width: 350px;
+  }
+
+  /* HILIGHTING TABLE ROWS*/
+
+table {
+  border-collapse: collapse;
+  width:50%;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 120%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em;
+}
+th {
+  color: #FFFFFF; /* White */
+  border: 2px solid #FFFFFF; /* White */
+}
+td{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 100%;
+  color: #003cff;
+  border: 2px solid #FFFFFF; /* White */
+}
+tr{
+  opacity: 0.8;
+}
+
+tr:nth-child(odd) {
+background: #2c922c;
+}
+tr:nth-child(even) {
+background: #65a83d;
+}
+
+tr:last-child>td:last-child{
+-webkit-border-radius: 0 0 25px 0;
+border-radius: 0 0 25px 0;
+}
+tr:last-child>td:first-child {
+-webkit-border-radius: 0 0 0 25px;
+border-radius: 0 0 0 25px;	
+}
+tr:first-child>th:first-child {
+-webkit-border-radius:  25px 0 0 0;
+border-radius:  25px 0 0 0;	
+}
+tr:first-child>th:last-child {
+-webkit-border-radius: 0 25px 0 0;
+border-radius: 0 25px  0 0;	
+}
+tr:hover{
+  color: #FFFFFF; /* White */
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 130%;
+  opacity: 1;
+}
