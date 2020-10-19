@@ -217,7 +217,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     $.getJSON('mycvcerti.json', function(data) {
         $.each(data.certificate, function(i, f) {
             if (i<6) {
-            certi1.append('<button class="collapsible"><img src="./images/'+ f.Issuing_Organization_img +'" style="height:50px"></img>&nbsp&nbsp&nbsp'+ f.name +'</button><div class="content h6"><p><ul>' +
+            certi1.append('<button class="collapsible"><img src="..\images/'+ f.Issuing_Organization_img +'" style="height:50px"></img>&nbsp&nbsp&nbsp'+ f.name +'</button><div class="content h6"><p><ul>' +
                             '<li>Name: <strong>'+ f.name +'</strong></li>' +
                             '<li>Issuing Organization: <strong>' + f.Issuing_Organization + '</strong></li>'+
                             '<li>Issue Date: <strong>' + f.Issue_Date + '</strong></li>'+
@@ -226,7 +226,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                             '<li>Credential URL: <a href= ' + f.Credential_URL +' ><strong>'+ f.Credential_URL + '</strong></a></li>' +
                         '</ul></p></div>');
             } else {
-                certi2.append('<button class="collapsible"><img src="./images/'+ f.Issuing_Organization_img +'" style="height:50px"></img>&nbsp&nbsp&nbsp'+ f.name +'</button><div class="content h6"><p><ul>' +
+                certi2.append('<button class="collapsible"><img src="..\images/'+ f.Issuing_Organization_img +'" style="height:50px"></img>&nbsp&nbsp&nbsp'+ f.name +'</button><div class="content h6"><p><ul>' +
                             '<li>Name: <strong>'+ f.name +'</strong></li>' +
                             '<li>Issuing Organization: <strong>' + f.Issuing_Organization + '</strong></li>'+
                             '<li>Issue Date: <strong>' + f.Issue_Date + '</strong></li>'+
