@@ -1,7 +1,7 @@
 {
     "certificate" :[
      {
-        "Issuing_Organization_img" :".\images\coursera.jpg",
+        "Issuing_Organization_img" :"../images/coursera.jpg",
         "name":"Python for Everybody Specialization",
         "Issuing_Organization":"Coursera",
         "Issue_Date" : "September 2020",
